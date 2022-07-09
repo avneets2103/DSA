@@ -10,3 +10,8 @@ Topics covered yet:
 5.OOPS1 /
 6.OOPS2 /
 7.Linked list 1 /
+8.Linked list 2 /
+9.Trees /
+10.Binary trees /
+11.BST /
+12.
