@@ -1,16 +1,21 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-#include <vector>
-template<typename T>
-class treeNode{
-    public:
-    T data;
-    vector<treeNode<int>*> children;
-};
-
-treeNode<int>* maxSumNode(treeNode<int>* root){
-
+int main()
+{
+    int i,j,k,n;
+    cout<<"enter the number of rows:";
+    cin>>n;
+    for(j=1;j<=n;j++)
+    {
+        for(i=1;i<=n-j;i++)
+        {
+            cout<<" ";
+        }
+        for(k=1;k<=j;k++)
+        {
+            cout<<"*";
+        }
+        cout<<"\n";
+    }
 }
 
-
-int main(){return 0;}
